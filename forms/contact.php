@@ -1,6 +1,6 @@
 <?php
   /**
-  * Requires the "PHP Email Form" library
+  * Requires the "PHP Email Form" library 
   * The "PHP Email Form" library
   * The library should be uploaded to: vendor/php-email-form/php-email-form.php
   */
