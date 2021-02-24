@@ -100,7 +100,7 @@ span.label {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #111111;
+  background: #fcce01;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -117,11 +117,11 @@ span.label {
 }
 
 #topbar .contact-info a:hover {
-  color: #fcce01;
+  color: #fff;
 }
 
 #topbar .contact-info i {
-  color: #fcce01;
+  color: #fff;
   padding-right: 4px;
 }
 
@@ -216,6 +216,7 @@ span.label {
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -479,6 +480,7 @@ span.label {
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 #hero p {
@@ -790,7 +792,7 @@ section {
 
 .clients .owl-item img {
   width: 80%;
-  opacity: 0.5;
+/*  opacity: 0.5;*/
   transition: 0.3s;
 }
 
@@ -1554,8 +1556,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #449d5b;
-  color: #fff;
+  background: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -1566,3 +1568,6 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*OWL Slider CSS*/
+
