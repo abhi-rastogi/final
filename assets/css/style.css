@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #80c792;
+  color: #fcce01;
   text-decoration: none;
 }
 
@@ -302,7 +302,7 @@ span.label {
 
 /* Get Startet Button */
 .get-started-btn {
-  margin-left: 25px;
+	margin-left: 25px;
   color: #fcce01;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
@@ -827,12 +827,14 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -880,7 +882,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+/*  color: #47aeff;*/
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -1007,7 +1009,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .pro-features li {
-    list-style-type: circle;
+    list-style-type: none;
     text-align: left;
     font-size: 15px;
     line-height: 32px;
@@ -1570,4 +1572,29 @@ section {
 }
 
 /*OWL Slider CSS*/
+
+button.owl-next {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+
+button.owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+button.owl-prev span, button.owl-next span {
+    font-size: 50px;
+}
+
+.owl-dots {
+    display: none;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.td-underline {
+    border-bottom: 5px solid #ffcc04;
+}
 
