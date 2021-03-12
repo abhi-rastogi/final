@@ -32,7 +32,10 @@ span.label {
     top: 0px;
     left: 20px;
 }
-
+span.mw-80 {
+    width: 120px;
+    display: inline-block;
+}
 /* social-media fixed*/
 .sticky-social{
   position:fixed;
@@ -822,7 +825,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 50px 20px;
+  padding: 70px 20px 70px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -1516,8 +1519,7 @@ section {
   background: #090909;
   color: #fff;
   font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
+  padding: 30px 0 0px;
 }
 
 #footer h3 {
@@ -1527,29 +1529,33 @@ section {
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 0 0;
 }
 
 #footer p {
   font-size: 15;
-  font-style: italic;
+/*  font-style: italic;*/
   padding: 0;
   margin: 0 0 40px 0;
 }
 
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin: 0 0 40px 25px;
+}
+
+.address i, .phone-no i {
+color: #fcce01;
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #fcce01;
-  color: #fff;
+  color: #000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 5px;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -1564,6 +1570,12 @@ section {
 
 #footer .copyright {
   margin: 0 0 5px 0;
+}
+
+.copyright {
+margin: 0;
+background-color: #fcce01;
+font-size: 13px;
 }
 
 #footer .credits {
